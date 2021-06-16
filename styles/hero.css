@@ -1,0 +1,49 @@
+.hero {
+  margin-bottom: 104px;
+}
+
+.hero-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 30px;
+}
+
+.hero-title {
+  font-size: 47px;
+  max-width: 123px;
+  line-height: 59px;
+}
+
+.hero-description__text {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.lang {
+  transform: rotate(-90deg);
+  transform-origin: 20% 0;
+  backface-visibility: hidden;
+  margin: 0;
+}
+
+.lang-text {
+  margin: 0;
+  padding: 0;
+}
+
+.lang-active {
+  font-weight: bold;
+}
+
+.hero-picture {
+  text-align: center;
+  background-image: url(../img/photos/main-pic.jpg);
+  height: 387px;
+  width: 80%; /* при норм картинке попробовать убрать это */
+  margin: auto; /* при норм картинке попробовать убрать это */
+  background-repeat: no-repeat;
+  background-position: center top -60px;
+  border: 5px solid #F84BA5;
+  border-radius: 15px;
+}

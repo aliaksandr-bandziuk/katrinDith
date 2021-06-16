@@ -1,0 +1,26 @@
+.header-wrapper {
+  padding-top: 32px;
+}
+
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.header-list__item {
+  font-size: 18px;
+  color: #828282;
+  cursor: pointer;
+}
+
+.header-list__item-active {
+  color: #070707;
+}
+
+.underline {
+  display: block;
+  border: 1px solid #828282;
+  background: #828282;
+  margin-bottom: 40px;
+}

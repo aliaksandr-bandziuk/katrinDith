@@ -1,0 +1,21 @@
+.about {
+  background-color: #F6F6F6;
+  padding-bottom: 60px;
+}
+
+.about-title {
+  padding-top: 120px;
+  margin-bottom: 17px;
+}
+
+.about-description {
+  max-width: 485px;
+  margin: auto;
+}
+
+.about-description__text {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  padding-bottom: 50px;
+}

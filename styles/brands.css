@@ -1,0 +1,22 @@
+.brands-wrapper {
+  margin-top: 91px;
+}
+
+.brands-title {
+  margin-bottom: 50px;
+}
+
+.brands-text {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 83px;
+}
+
+.brands-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 110px;
+  flex-wrap: wrap;
+}
