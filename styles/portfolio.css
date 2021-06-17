@@ -6,3 +6,12 @@
   padding-top: 112px;
   padding-bottom: 96px; /* Это потом удалить */
 }
+
+.swiper-container__custom {
+  text-align: center;
+}
+
+.swiper-wrapper__custom {
+  max-height: 800px;
+  padding-bottom: 100px;
+}

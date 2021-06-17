@@ -7,6 +7,8 @@
   <title>Model Katrin Dith</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/components/effect-flip/effect-flip.min.css" /> -->
   <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/main.css">
   <link rel="stylesheet" href="styles/header.css">
@@ -103,6 +105,46 @@
   <section class="portfolio">
     <div class="container">
       <h2 class="portfolio-title">Portfolio</h2>
+      <div class="swiper-container swiper-container__custom">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper swiper-wrapper__custom">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="img/portfolio/slider-photo-1.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/portfolio/slider-photo-2.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/portfolio/slider-photo-3.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/portfolio/slider-photo-4.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/portfolio/slider-photo-5.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/portfolio/slider-photo-6.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/portfolio/slider-photo-7.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/portfolio/slider-photo-8.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/portfolio/slider-photo-9.jpg" alt="">
+          </div>
+          ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
     </div>
   </section>
 
@@ -143,4 +185,6 @@
   </footer>
 
 </body>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="scripts/main.js"></script>
 </html>
