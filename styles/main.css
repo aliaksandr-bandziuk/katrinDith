@@ -1,13 +1,13 @@
-.container {
-  width: 70%;
-  /* max-width: 1400px; */
-  margin: auto;
-}
-
 html {
   font-family: Poppins, Arial, sans-serif;
   color: #070707;
   scroll-behavior: smooth;
+}
+
+.container {
+  width: 70%;
+  /* max-width: 1400px; */
+  margin: auto;
 }
 
 h2 {
