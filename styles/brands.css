@@ -20,3 +20,46 @@
   margin-bottom: 110px;
   flex-wrap: wrap;
 }
+
+.brands-item__img {
+  transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+}
+
+.brands-item__img:hover {
+
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+@media (max-width: 1200px) {
+
+  .brands-wrapper {
+    margin-top: 45px;
+  }
+
+  .brands-text {
+    font-size: 14px;
+    margin-bottom: 50px;
+  }
+
+  .brands-items {
+    display: block;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  .brands-item {
+    margin-bottom: 20px;
+    
+  }
+
+  .brands-item__img {
+    border: 1px solid #F84BA5;
+  }
+
+}

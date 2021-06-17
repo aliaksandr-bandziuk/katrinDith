@@ -83,17 +83,11 @@ modalWindow.addEventListener('click', (event) => {
 
 })
 
-// modalWindow.addEventListener('keydown', (event) => {
-  
-//   const key = event.key;
-
-//   if ((target.classList.contains('modal__overlay') ||
-//       target.classList.contains('modal__close-img')) &&
-//       key === 'Escape') {
-//         closeModalWindow();
-//       }
-
+// Это надо куда-то запихать, чтобы не скроллилось при закрытии
+// modalClose.addEventListener('click', e => {
+//   e.preventDefault();
 // })
+
 
 const disableScroll = () => {
 

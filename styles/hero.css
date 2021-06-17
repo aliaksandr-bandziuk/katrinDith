@@ -45,4 +45,33 @@
   background-position: right 25% top -150px;
   border: 2px solid #F84BA5;
   border-radius: 15px;
+
+  transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+}
+
+.hero-picture:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+@media (max-width: 840px) {
+
+  .hero-wrapper {
+    display: block;
+  }
+
+  .lang {
+    transform: none;
+    margin-top: 10px;
+  }
+
+  .hero-picture {
+    height: 800px;
+  }
+
 }

@@ -19,3 +19,20 @@
   text-align: center;
   padding-bottom: 50px;
 }
+
+@media (max-width: 840px) {
+
+  .about {
+    padding-bottom: 30px;
+  }
+
+  .about-description__text {
+    font-size: 14px;
+    padding-bottom: 25px;
+  }
+
+  .about-title {
+    padding-top: 60px;
+  }
+
+}

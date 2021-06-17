@@ -49,3 +49,25 @@
   text-align: center;
   color: #828282;
 }
+
+@media (max-width: 840px) {
+
+  .footer-description {
+    font-size: 14px;
+  }
+
+  .footer-button__send {
+    margin-bottom: 60px;
+    width: 150px;
+    height: 36px;
+  }
+
+  .footer-subtext {
+    padding-bottom: 40px;
+  }
+
+  .footer-subtext__text {
+    font-size: 12px;
+  }
+
+}
