@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="styles/brands.css">
   <link rel="stylesheet" href="styles/portfolio.css">
   <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/modal.css">
 </head>
 <body>
 
@@ -161,7 +162,7 @@
           You are welcome!
         </p>
         <div class="footer-button">
-          <button class="footer-button__send">Send message</button>
+          <button class="footer-button__send modal__open">Send message</button>
         </div>
         <div class="footer-social">
           <div class="footer-social__item">
@@ -190,6 +191,25 @@
       </div>
     </div>
   </footer>
+
+  <div class="modal">
+    <div class="modal__overlay hidden"></div>
+    <div class="modal__dialog hidden">
+      <button type="button" class="modal__close modal__close-button">
+        <img src="img/other/close.png" class="modal__close-img" alt="">
+      </button>
+      <!-- <a href="#" class="modal__close">
+        <img src="img/close.png" class="modal__close-img" alt="">
+      </a> -->
+      <form action="#" class="contacts-form contactas-form__modal">
+        <h4 class="form-title">Можете просто оставить заявку, я позвоню вам сегодня</h4>
+        <input type="text" class="input input-name" placeholder="Your name">
+        <input type="text" class="input input-phone" placeholder="Your phone">
+        <input type="text" class="input input-text" placeholder="Your message">
+        <button class="button form-button">Sent</button>
+      </form>
+    </div>
+  </div>
 
 </body>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>

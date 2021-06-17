@@ -1,0 +1,99 @@
+.modal__overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0; 
+  bottom: 0;
+  background-color: #20202D;
+  opacity: 0.8;
+  z-index: 100;
+}
+
+.modal__dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 101;
+  transform: translate(-50%, -50%); /* так выставляю модальное окно по центру экрана */
+}
+
+.modal__close {
+  position: absolute;
+  right: 17px;
+  top: 17px;
+}
+
+.modal__close-button {
+  border: none;
+  background: none;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.modal__close-img:hover {
+  transition: all .8s ease-in-out;
+  transform: rotate(360deg);
+  cursor: pointer;
+}
+
+.contacts-form {
+  background: #FFFFFF;
+  box-shadow: -5px 5px 0px #F84BA5;
+  border-radius: 5px;
+  max-width: 380px;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 48px;
+  padding-bottom: 49px;
+}
+
+.input {
+  background: #F8F8F8;
+  border: none;
+  box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+  border-radius: 5px;
+  padding: 18px 20px;
+  padding-left: 50px;
+  width: 90%;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.input-name {
+  margin-top: 5px;
+  margin-bottom: 17px;
+  background-repeat: no-repeat;
+  background-position: center left 20px;
+}
+
+.input-phone {
+  margin-bottom: 17px;
+  background-repeat: no-repeat;
+  background-position: center left 20px;
+}
+
+.input-text {
+  margin-bottom: 17px;
+  background-repeat: no-repeat;
+  background-position: center left 20px;
+}
+
+.button {
+  background: #dbbacb;
+  box-shadow: 0px 4px 0px #F84BA5;
+  border: none;
+  border-radius: 5px 5px 10px 10px;
+  padding: 24px 42px;
+  font-size: 20px;
+  line-height: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  width: 108%;
+}
+
+/* .form-button {
+  width: 100%;
+} */

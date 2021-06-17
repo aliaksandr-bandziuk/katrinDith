@@ -40,7 +40,6 @@
   text-align: center;
   background-image: url(../img/photos/main-pic-3.jpeg);
   height: 450px;
-  
   margin: auto; /* при норм картинке попробовать убрать это */
   background-repeat: no-repeat;
   background-position: right 25% top -150px;
