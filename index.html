@@ -25,11 +25,11 @@
     <div class="container">
       <div class="header-wrapper">
         <ul class="header-list">
-          <li class="header-list__item header-list__item-active">Home</li>
-          <li class="header-list__item">About me</li>
-          <li class="header-list__item">Brands</li>
-          <li class="header-list__item">Portfolio</li>
-          <li class="header-list__item">Contacts</li>
+          <li class="header-list__item"><a href="#hero">Home</a></li>
+          <li class="header-list__item"><a href="#about">About me</a></li>
+          <li class="header-list__item"><a href="#brands">Brands</a></li>
+          <li class="header-list__item"><a href="#portfolio">Portfolio</a></li>
+          <li class="header-list__item"><a href="#contacts">Contacts</a></li>
         </ul>
         <span class="underline"></span>
       </div>
@@ -40,7 +40,7 @@
   <section class="hero">
     <div class="container">
       <div class="hero-wrapper">
-        <h1 class="hero-title">Katrin Dith</h1>
+        <h1 class="hero-title" id="hero">Katrin Dith</h1>
         <div class="hero-description">
           <p class="hero-description__text">Instagram blogger | Model</p>
           <p class="hero-description__text">29 yeasr old, Duisburg</p>
@@ -58,7 +58,7 @@
   <!-- About -->
   <section class="about">
     <div class="container">
-      <h2 class="about-title">About me</h2>
+      <h2 class="about-title" id="about">About me</h2>
       <div class="about-description">
         <p class="about-description__text">
           Hi, I'm Katrin – blogger and model. 
@@ -78,7 +78,7 @@
   <section class="brands">
     <div class="container">
       <div class="brands-wrapper">
-        <h2 class="brands-title">Brands</h2>
+        <h2 class="brands-title" id="brands">Brands</h2>
         <p class="brands-text">Brands that trust me</p>
         <div class="brands-items">
           <div class="brands-item">
@@ -104,7 +104,7 @@
   <!-- Portfolio -->
   <section class="portfolio">
     <div class="container">
-      <h2 class="portfolio-title">Portfolio</h2>
+      <h2 class="portfolio-title" id="portfolio">Portfolio</h2>
       <div class="swiper-container swiper-container__custom">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper swiper-wrapper__custom">
@@ -139,11 +139,11 @@
           ...
         </div>
         <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
+        <!-- <div class="swiper-pagination"></div> -->
       
         <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev swiper-button__custom"></div>
+        <div class="swiper-button-next swiper-button__custom"></div>
       </div>
     </div>
   </section>
@@ -152,7 +152,7 @@
   <footer class="contacts">
     <div class="container">
       <p class="footer-wrapper">
-        <h2 class="footer-title">Contacts</h2>
+        <h2 class="footer-title" id="contacts">Contacts</h2>
         <p class="footer-description">
           Want to know more or just chat? 
         </p>
@@ -164,16 +164,22 @@
         </div>
         <div class="footer-social">
           <div class="footer-social__item">
-            <img src="img/social/001-facebook.png" alt="">
+            <a href="https://www.facebook.com/KatrinDith">
+              <img src="img/social/001-facebook.png" alt="">
+            </a>
           </div>
-          <div class="footer-social__item">
+          <!-- <div class="footer-social__item">
             <img src="img/social/008-youtube.png" alt="">
+          </div> -->
+          <div class="footer-social__item">
+            <a href="https://www.instagram.com/katrindith/">
+              <img src="img/social/011-instagram.png" alt="">          
+            </a>
           </div>
           <div class="footer-social__item">
-            <img src="img/social/011-instagram.png" alt="">
-          </div>
-          <div class="footer-social__item">
-            <img src="img/social/016-tik tok.png" alt="">
+            <a href="https://vm.tiktok.com/ZMdrRxGB3/">
+              <img src="img/social/016-tik tok.png" alt="">
+            </a>
           </div>
         </div>
         <div class="footer-subtext">

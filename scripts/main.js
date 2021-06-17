@@ -22,3 +22,20 @@ const swiper = new Swiper('.swiper-container', {
   },
 
 });
+
+const headerListItems = document.querySelectorAll('.header-list__item');
+
+const addActiveClass = () => {
+  
+  headerListItems.forEach((item, index) => {
+    item.addEventListener('mouseover', () => {
+      item.classList.toggle('header-list__item-active');
+    })
+    item.addEventListener('mouseout', () => {
+      item.classList.toggle('header-list__item-active');
+    })
+  })
+
+}
+
+addActiveClass();

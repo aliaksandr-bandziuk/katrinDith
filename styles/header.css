@@ -1,5 +1,13 @@
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #F6F6F6;
+  z-index: 10;
+}
+
 .header-wrapper {
   padding-top: 32px;
+ 
 }
 
 .header-list {
