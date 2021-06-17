@@ -38,12 +38,12 @@
 
 .hero-picture {
   text-align: center;
-  background-image: url(../img/photos/main-pic-2.jpg);
-  height: 387px;
-  width: 80%; /* при норм картинке попробовать убрать это */
+  background-image: url(../img/photos/main-pic-3.jpeg);
+  height: 450px;
+  
   margin: auto; /* при норм картинке попробовать убрать это */
   background-repeat: no-repeat;
-  background-position: center top -250px;
+  background-position: right 25% top -150px;
   border: 2px solid #F84BA5;
   border-radius: 15px;
 }
