@@ -26,19 +26,20 @@
     <div class="container">
 
       <!-- Menu on mobile -->
-      <nav class="mobile-menu">
-        <input type="checkbox" id="checkbox" class="mobile-menu__checkbox">
-        <label for="checkbox" class="mobile-menu__btn"><div class="mobile-menu__icon"></div></label>
-        <div class="mobile-menu__container">
-        <ul class="mobile-menu__list">
-            <li class="mobile-menu__item"><a href="#hero" class="mobile-menu__link">Home</a></li>
-            <li class="mobile-menu__item"><a href="#about" class="mobile-menu__link">About me</a></li>
-            <li class="mobile-menu__item"><a href="#brands" class="mobile-menu__link">Brands</a></li>
-            <li class="mobile-menu__item"><a href="#portfolio" class="mobile-menu__link">Portfolio</a></li>
-            <li class="mobile-menu__item"><a href="#contacts" class="mobile-menu__link">Contacts</a></li>
-        </ul>
-        </div>
-      </nav>
+      <div class="mobile-menu">
+        <div class="mobile-menu__img mobile-menu__img-open">
+        </div> 
+        <div class="mobile-menu__list mobile-menu__list-hidden">
+          <ul class="mobile-menu__items">
+            <li class="mobile-menu__item"><a href="#hero">Home</a></li>
+            <li class="mobile-menu__item"><a href="#about">About me</a></li>
+            <li class="mobile-menu__item"><a href="#brands">Brands</a></li>
+            <li class="mobile-menu__item"><a href="#portfolio">Portfolio</a></li>
+            <!-- <li class="mobile-menu__item"><a href="#photos">Photos</a></li> -->
+            <li class="mobile-menu__item"><a href="#contacts">Contacts</a></li>
+          </ul>
+        </div>   
+      </div>
 
       <!-- Menu on desctop -->
       <div class="header-wrapper">
@@ -66,7 +67,7 @@
           <p class="hero-description__text">Düsseldorf, Germany</p>
         </div>
         <div class="lang">
-          <p class="lang-text">RU | <span class="lang-active">ENG</span></p>
+          <p class="lang-text"><span class="lang-active"><a href="">RU</a></span> | ENG</p>
         </div>
       </div>
       <div class="hero-picture">
