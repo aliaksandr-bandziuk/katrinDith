@@ -33,7 +33,7 @@ try {
     $mail->Password   = '9kL_08xG'; // Пароль на почте
     $mail->SMTPSecure = 'ssl';
     $mail->Port       = 465;
-    $mail->setFrom('bandziuk.test@gmail.com', 'Александр Александр'); // Адрес самой почты и имя отправителя
+    $mail->setFrom('bandziuk.test@gmail.com', 'Вам письмо'); // Адрес самой почты и имя отправителя
 
     // Получатель письма
     $mail->addAddress('textagrad@yandex.ru');  
@@ -67,4 +67,4 @@ else {$result = "error";}
 }
 
 // Отображение результата
-echo json_encode(["result" => $result, "resultfile" => $rfile, "status" => $status]);
+header('Location: success.html');

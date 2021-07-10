@@ -1,0 +1,28 @@
+.success__wrapper {
+  text-align: center;
+}
+
+.success__title {
+  font-size: 47px;
+  line-height: 59px;
+  margin-bottom: 30px;
+}
+
+.success__description {
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 30px;
+}
+
+.img_success {
+  margin-bottom: 30px;
+}
+
+.footer-title__success {
+  padding-top: 50px;
+  margin-bottom: 20px;
+}
+
+.footer-description__success {
+  margin-bottom: 30px;
+}
