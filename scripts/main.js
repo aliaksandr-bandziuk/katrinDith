@@ -2,10 +2,10 @@
 
 // Инициализируем Swiper
 const swiper = new Swiper('.swiper', {
-  effect: 'flip',
-  flipEffect: {
-    slideShadows: false,
-  },
+  // effect: 'flip',
+  // flipEffect: {
+  //   slideShadows: false,
+  // },
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
