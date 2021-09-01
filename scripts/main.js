@@ -1,11 +1,11 @@
 'use strict';
 
 // Инициализируем Swiper
-const swiper = new Swiper('.swiper-container', {
-  // effect: 'flip',
-  // flipEffect: {
-  //   slideShadows: false,
-  // },
+const swiper = new Swiper('.swiper', {
+  effect: 'flip',
+  flipEffect: {
+    slideShadows: false,
+  },
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
@@ -19,7 +19,7 @@ const swiper = new Swiper('.swiper-container', {
   autoplay: {
     delay: 4000,
   },
-
+  loop: true,
 });
 
 const headerListItems = document.querySelectorAll('.header-list__item');
